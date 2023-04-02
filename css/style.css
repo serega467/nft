@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul, 
+li {
+    list-style-type: none;
+} 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(113.49deg, #984d38 -30.3%, #181e41 58.12%) no-repeat;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header {
+    max-width: 1197px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px 110px 15px;
+}
+
+.header__logo {
+    display: block;
+    width: 40px;
+    height: 40px;
+    /* background: url(../images/nft-gold-coin-13066.svg); */
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-right: 40px;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form__button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 3px;
+    cursor: pointer;
+}
+
+
+.form__input {
+    width: 384px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+    color: #fff;
+}
+
+.form__input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.form__input:focus {
+    outline: none;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__link-gradient {
+    display: block;
+    background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: -12px;
+}
+
+.container {
+    max-width: 1197px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* растянул контейнер на весь экран
+    чтобы не было белого просвета внизу, позже доделаю */
+    height: 749px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main__img {
+    width: 100%;
+}
+.main__text {
+    flex-basis: 490px;
+}
+.main__title {
+    font-size: 50px;
+    font-weight: 700;
+}
+.main__desc {
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.5);
+}
+.main__btn {
+    font-size: 20px; 
+    border-radius: 10px;
+    background: #181e41; 
+    padding: 10px 20px;
+    
+}
+.main__btn_gradient {
+    background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+}
+.main__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.main__item {
+    font-size: 16px;
+}
+
+.main__item span {
+    color: #b75cff;
+    font-size: 22px;
+    padding-right: 15px;
+}
+.main__image {
+    flex-basis: calc(100% - 490px - 116px);
+}
